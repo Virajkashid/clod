@@ -2,9 +2,9 @@
    name: example plybook debian setup
    host: all
    become: yes
-   vars: package  apache 2
+   vars: package  apache2
    task: installing packege apache2
-       name: apache 2
+       name: apache2
        action: apt instalation 
        name: {{apache2}} 
        state: latest 
