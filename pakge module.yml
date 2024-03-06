@@ -2,4 +2,5 @@
    name: example plybook debian setup
    host: all
    become: yes
-   vars: package : 
+   vars: package : apache 2
+   
