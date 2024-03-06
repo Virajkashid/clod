@@ -3,7 +3,7 @@
    host: all
    become: yes
    vars: package  apache 2
-    task: installing packege apache 2
+  task:installing packege apache 2
        name: apache 2
        action: apt instalation 
        name: {{apache2}} 
