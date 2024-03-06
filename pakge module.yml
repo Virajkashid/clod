@@ -2,7 +2,7 @@
    name: example plybook debian setup
    host: all
    become: yes
-   vars: package  apache2  
+   vars: package apache 
 
    task: installing packege apache
       name: apache
