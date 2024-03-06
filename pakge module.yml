@@ -5,7 +5,7 @@
    vars: package apache 
 
    task: installing packege apache
-   name: apache
+      name: apache
       action: apt instalation 
       state: latest 
 ...        
