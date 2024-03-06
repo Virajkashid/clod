@@ -7,6 +7,6 @@
    task: installing packege apache2
       name: apache
       action: apt instalation 
-      name: {{apache2}} 
+      name: {{apache}} 
       state: latest 
 ...       
