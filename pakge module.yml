@@ -7,4 +7,4 @@
        name: apache 2
        action: apt instalation 
        name: {{apache2}} 
-       staet:
+       state: latest 
