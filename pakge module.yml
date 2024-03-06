@@ -1,3 +1,4 @@
 ---
    name: example plybook debian setup
-   host: 
+   host: all
+   beco
