@@ -4,7 +4,7 @@
    become: yes
    vars: package  apache2  
 
-   task: installing packege apache2
+   task: installing packege apache
       name: apache
       action: apt instalation 
       name: {{apache}} 
