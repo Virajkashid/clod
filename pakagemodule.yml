@@ -1,6 +1,5 @@
 ---
--
-   name: example plybook debian setup
+-name: example plybook debian setup
    host: all
    become: yes
    vars: package apache 
