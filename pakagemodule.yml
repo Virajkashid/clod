@@ -1,7 +1,7 @@
 ---
--name: example plybook package install
+   -name: example plybook package install
     host: all
-   become: true
+      become: true
     
    task:
    - name: installation of apache
