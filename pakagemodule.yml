@@ -11,5 +11,6 @@
    -  name: activating package
       systemd:
          name: apache2
-         
+         state: started
+         enable: true
 ... 
