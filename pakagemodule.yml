@@ -1,4 +1,5 @@
 ---
    -  name: install and start nginix
       host: all
-      become
+      become: 
+      yes
