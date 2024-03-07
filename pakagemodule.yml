@@ -1,5 +1,5 @@
 ---
--  name: example plybook debian setup
+-  name: example plybook package install
    host: all
    become: true
     
