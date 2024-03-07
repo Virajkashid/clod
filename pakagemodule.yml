@@ -5,4 +5,5 @@
       become_user: root
       become: yes
       tasks:
-         - name: install nginix 
+         - name: install nginix
+            apt: 
