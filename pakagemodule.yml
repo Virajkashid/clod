@@ -1,7 +1,7 @@
 ---
 -  name: example plybook debian setup
    host: all
-   become: yes
+   become: true
     
    task:
    -  name: installation of apache
