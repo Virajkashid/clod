@@ -4,8 +4,8 @@
    become: yes
    vars: package apache 
 
-   task: installing packege apache
-   -  name: apache
+   task:
+   -
       action: apt instalation 
       state: latest 
 ... 
