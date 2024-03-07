@@ -1,6 +1,6 @@
 ---
--name: example plybook package install
-    host: all
+-  name: example plybook package install
+   host: all
    become: true
     
    task:
