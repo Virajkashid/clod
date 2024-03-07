@@ -1,12 +1,12 @@
 ---
    -name: example plybook package install
     host: all
-      become: true
+   become: true
     
    task:
-   - name: installation of apache
-      apt:
-         name: apache2
+      - name: installation of apache
+         apt:
+      name: apache2
          state: present
    - name: activating package
       systemd:
