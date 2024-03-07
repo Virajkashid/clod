@@ -2,4 +2,4 @@
    -  name: install and start nginix
       host: all
       become: yes
-      become_
+      become_user: root
