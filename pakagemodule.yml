@@ -6,7 +6,7 @@
        task:
       - name: installation of apache
          apt:
-   name: apache
+   name: apache2
          state: present
    - name: activating package
       systemd:
