@@ -6,6 +6,7 @@
 
    task:
    -  name: installation of apache
+      
       action: apt instalation 
       state: latest 
 ... 
