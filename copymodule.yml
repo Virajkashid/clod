@@ -6,4 +6,4 @@
   tasks:
   - name: copy file
     copy: 
-    scr: /
+    scr: /home/ubuntu
