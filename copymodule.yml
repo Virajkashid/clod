@@ -7,4 +7,5 @@
   - name: copy file
     copy: 
     scr: /home/ubuntu/viraj.txt
-    dest: /tem
+    dest: /tmp
+    mode:
