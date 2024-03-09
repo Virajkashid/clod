@@ -8,4 +8,4 @@
     copy: 
     scr: /home/ubuntu/viraj.txt
     dest: /tmp
-    mode:
+    mode: '777'
