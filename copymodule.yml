@@ -5,4 +5,5 @@
 
   tasks:
   - name: copy file
-    
+    copy: 
+    scr:
