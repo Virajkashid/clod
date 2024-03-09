@@ -6,4 +6,5 @@
   tasks:
   - name: copy file
     copy: 
-    scr: /home/ubuntu/
+    scr: /home/ubuntu/viraj.txt
+    
