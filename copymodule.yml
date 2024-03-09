@@ -4,4 +4,4 @@
   become: true
 
   tasks:
-  - name: copy
+  - name: copy ansible_os_family
