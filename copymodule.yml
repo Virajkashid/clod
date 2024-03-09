@@ -2,4 +2,3 @@
   -name: all copy ansible_os_family
    hosts: all
    become: true
-   
