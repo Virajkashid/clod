@@ -9,4 +9,5 @@
     scr: /home/ubuntu/viraj.txt
     dest: /tmp
     mode: '777'
+    backup: true
     
