@@ -1,13 +1,13 @@
----
-- name: all copy ansible_os_family
-  hosts: all
-  become: true
+# ---
+# - name: all copy ansible_os_family
+#   hosts: all
+#   become: true
 
-  tasks:
-  - name: copy file
-    copy: 
-    scr: /home/ubuntu/viraj.txt
-    dest: /tmp
-    mode: '777'
-    backup: true
-...   
+#   tasks:
+#   - name: copy file
+#     copy: 
+#     scr: /home/ubuntu/viraj.txt
+#     dest: /tmp
+#     mode: '777'
+#     backup: true
+# ...   

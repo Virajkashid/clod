@@ -1,5 +1,5 @@
-- name: stratingnginx
-  systemd:
-    name: nginx
-    state: started
-    enabled: true
+# - name: stratingnginx
+#   systemd:
+#     name: nginx
+#     state: started
+#     enabled: true

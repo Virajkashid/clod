@@ -1,15 +1,15 @@
----
-- name: install and start nginx
-  hosts: all
-  become: yes
-  become_user: root
-  tasks:
-    - name: install nginx
-      apt:
-        name: nginx
-        state: absent
-    - name: start nginx
-      service:
-        name: nginx
+# ---
+# - name: install and start nginx
+#   hosts: all
+#   become: yes
+#   become_user: root
+#   tasks:
+#     - name: install nginx
+#       apt:
+#         name: nginx
+#         state: absent
+#     - name: start nginx
+#       service:
+#         name: nginx
         
-...
+# ...

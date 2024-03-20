@@ -1,9 +1,9 @@
----
-   name: this playbook is for file 
-   host: all
-   var_file: office.yml
-   tasks: 
-     - name: first tsk example for file var 
-       debug:
-         msg:"{{url}}"
-...
+# ---
+#    name: this playbook is for file 
+#    host: all
+#    var_file: office.yml
+#    tasks: 
+#      - name: first tsk example for file var 
+#        debug:
+#          msg:"{{url}}"
+# ...
